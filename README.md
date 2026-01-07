@@ -54,12 +54,11 @@ bigbasket-quick-commerce-analytics/
 ├── scripts/
 │   ├── bronze/                 # Raw ingestion scripts
 │   ├── silver/                 # Cleaning & transformation scripts
-│   │   └── silver_tests.sql    # Data validation before Silver load
 │   ├── gold/                   # Star schema & analytical views
 │
 ├── eda_queries/                # Exploratory analysis SQL
 ├── advanced_analytics/         # Advanced business analysis SQL
-├── tests/                      # Data quality & logic testing
+├── tests/                      # Data quality & logic testing (silver layer)
 │
 ├── power_bi/
 │   ├── BigBasket_QuickCommerce_Analytics.pbix
